@@ -1,6 +1,6 @@
 .box1{
     background-color: #9c7b53;
-    height:700px;
+    height:800px;
     width:500px;
     border-radius: 100px;
     margin:auto;
@@ -21,4 +21,7 @@ header{
    border-radius: 100px;
    padding-left: 100px;
 
+}
+p { text-align: center;
+    font-size: x-large;
 }

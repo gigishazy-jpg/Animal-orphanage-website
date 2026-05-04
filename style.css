@@ -1,17 +1,24 @@
 .box1{
     background-color: #9c7b53;
-    height:600px;
-    width:400px;
+    height:700px;
+    width:500px;
     border-radius: 100px;
     margin:auto;
 
 }
-header h1{
+ h1{
     text-align: center ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blanchedalmond;
 
 }
 header{
     background-color: #c2b673;
 }
+.box1 img {
+   height:500px;
+   width:300px;
+   border-radius: 100px;
+   padding-left: 100px;
 
+}

@@ -198,7 +198,7 @@ h3 {
     width: 300px;
     padding-left: 100px;
 } 
-.wilddog {
+.cheet{
     height: 1200px;
     width: 500px;
     color:burlywood;
@@ -206,14 +206,39 @@ h3 {
     font-size: larger;
     line-height: 100%;
     padding-top: 20px;
-    background-image: url(./download\ \(19\).jpg);
+    background-image: url(./download\ \(20\).jpg);
     font-weight: 800;
 
 }
 
-.wilddog img {
+.cheet img {
     height: 350px;
     width: 300px;
     padding-left: 100px;
 } 
+#carnivores{
+    display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+.hyena {
+    height: 1200px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(22\).jpg);
+    font-weight: 800;
+
+}
+
+.hyena img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
 

@@ -108,4 +108,23 @@ h3 {
     height: 250px;
     width: 300px;
     padding-left: 100px;
+} 
+
+.hippo {
+    height: 1200px;
+    width: 500px;
+    color:burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(13\).jpg);
+    font-weight: 800;
 }
+
+.hippo img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+} 
+

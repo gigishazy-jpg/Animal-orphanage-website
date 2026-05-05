@@ -78,3 +78,18 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
 }
+.rhino{
+    height: 1200px;
+        width: 500px;
+        color:aliceblue;
+        border-radius: 100px;
+        font-size: larger;
+        line-height: 100%;
+        padding-top: 20px;
+        background-image:url(./download\ \(7\).jpg);
+}
+.rhino img {
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+}

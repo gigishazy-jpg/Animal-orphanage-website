@@ -41,9 +41,10 @@ h3 {
     width: 500px;
     color: bisque;
     border-radius: 100px;
-    background-color: darkgrey;
     font-size: larger;
     line-height: 120%;
+    background-image:url(./Elephant.jpg);
+
 
 
 }
@@ -55,12 +56,12 @@ h3 {
 .zebra{
     height: 1200px;
     width: 500px;
-    color: rgb(190, 107, 5);
+    color:blanchedalmond;
     border-radius: 100px;
-    background-color: darkgrey;
     font-size: larger;
     line-height: 100%;
     padding-top: 20px;
+    background-image: url(./01\ Zebra\ 4.jpg);
 
 
 }

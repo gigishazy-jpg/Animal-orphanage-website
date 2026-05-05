@@ -52,3 +52,20 @@ h3 {
         width: 300px;
         padding-left: 100px;
 }
+.zebra {
+    height: 1200px;
+    width: 600px;
+    color: bisque;
+    margin: auto;
+    border-radius: 100px;
+    background-color: darkgrey;
+    font-size: larger;
+    line-height: 120%;
+
+}
+
+.zebra img {
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+}

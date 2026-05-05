@@ -30,3 +30,10 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+.elephant{
+    height:800px;
+    width: 500px;
+    background-image:url(./Jordan\ III\ Elephant\ Print.jpg) ;
+    color: aliceblue;
+
+}

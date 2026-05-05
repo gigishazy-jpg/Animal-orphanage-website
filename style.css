@@ -146,3 +146,38 @@ h3 {
     padding-left: 100px;
 } 
 
+.lion {
+    height: 1200px;
+    width: 500px;
+    color:burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(15\).jpg);
+    font-weight: 800;
+}
+
+.lion img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+} 
+.leo {
+    height: 1200px;
+    width: 500px;
+    color:burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(18\).jpg);
+    font-weight: 800;
+}
+
+.leo img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+} 
+

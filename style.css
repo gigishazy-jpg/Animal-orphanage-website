@@ -24,16 +24,31 @@ header{
 }
 p { text-align: center;
     font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 .elephant{
     height:800px;
     width: 500px;
-    background-image:url(./Jordan\ III\ Elephant\ Print.jpg) ;
-    color: aliceblue;
+    color: #e44901;
+    margin: auto;
+    border-radius: 100px;
+    background-color: darkgrey;
+    font-size: larger;
+    line-height: 120%;
 
+}
+.elephant img {
+    height: 300px;
+        width: 300px;
+        padding-left: 100px;
 }

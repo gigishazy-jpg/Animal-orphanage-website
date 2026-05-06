@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANIMAL WILDLIFE GUIDE</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,17 +13,18 @@
     <header>
         <h1>ANIMAL WILDLIFE GUIDE</h1>
         <nav class="nav">
-            <a href="./home.html"> HOME</a>
-            <a href="./about.html"> ANIMALS</a>
-            <a href="#form"> FORM</a>
+            <a href="./home.html">HOME</a>
+            <a href="./about.html">ANIMALS</a>
+            <a href="#form">FORM</a>
         </nav>
     </header>
+
     <main>
         <section class="intro">
-            <h2> About This Website</h2>
+            <h2>About This Website</h2>
             <p>
                 Discover wildlife locations, animals, and conservation services across Kenya.
-                Select a county or search to explore.
+
             </p>
 
             <h3>Services Offered</h3>
@@ -31,46 +33,75 @@
                 <li>Animal orphanage information</li>
                 <li>Safari and tourism recommendations</li>
                 <li>Conservation education</li>
-                <li>Search by county and location</li>
+                <li>Search by animal name or location</li>
             </ul>
         </section>
-        <section class="search-box">
-            <h2> Find Wildlife Locations</h2>
 
-            <input type="text" id="searchInput" placeholder="Search county...">
+        <!-- SEARCH -->
+        <section class="search-box">
+            <h2>ADDED ANIMALS SEARCH BAR</h2>
+
+            <!-- ✅ MATCHES JS -->
+            <input type="text" id="search" placeholder="Search animal or location...">
 
             <div class="dropdown-container">
-                <label>Select County:</label>
-                <select id="countySelect">
-                    <option value="">-- Click to select county --</option>
+                <label>Select Category:</label>
+
+                <!-- ✅ MATCHES JS -->
+                <select id="filter">
+                    <option value="all">All Categories</option>
+                    <option value="Large Herbivores">Large Herbivores</option>
+                    <option value="Carnivores">Carnivores</option>
+                    <option value="Primates">Primates</option>
+                    <option value="Antelopes & Ungulates">Antelopes & Ungulates</option>
+                    <option value="Elusive Mammals">Elusive Mammals</option>
+                    <option value="Mammals">Mammals</option>
                 </select>
             </div>
         </section>
+
+        <!-- RESULTS -->
         <section id="result">
-            <h2> Results</h2>
-            <div id="output" class="result-box">
-                <p>Select a county to view places...</p>
+            <h2>Results</h2>
+
+            <!-- ✅ THIS IS REQUIRED BY JS -->
+            <div id="animalList" class="result-box">
+                <p>Animals will appear here...</p>
             </div>
         </section>
+
+        <!-- FORM -->
         <section id="form">
-            <h2>Add New Place</h2>
+            <h2>Add New Animal</h2>
+            <form id="animalForm">
+                <input type="text" id="name" placeholder="Animal Name (e.g Lion)" required>
 
-            <form>
-                <input type="text" id="county" placeholder="County" required>
-                <input type="text" id="place" placeholder="Place name" required>
-                <input type="text" id="animals" placeholder="Animals (eg animal, add comma to seperate it)" required>
-                <input type="text" id="services" placeholder="Services (eg food, add comma to seperate it)" required>
-                <button type="submit">Add Place</button>
+                <input type="text" id="location" placeholder="Location (e.g Maasai Mara)" required>
+
+                <select id="category" required>
+                    <option value="">-- Select Category --</option>
+                    <option value="Large Herbivores">Large Herbivores</option>
+                    <option value="Carnivores">Carnivores</option>
+                    <option value="Primates">Primates</option>
+                    <option value="Antelopes & Ungulates">Antelopes & Ungulates</option>
+                    <option value="Elusive Mammals">Elusive Mammals</option>
+                    <option value="Mammals">Mammals</option>
+                </select>
+
+                <input type="text" id="services" placeholder="Services (comma separated)" required>
+
+                <button type="submit">Add Animal</button>
             </form>
-
-            <p id="formMessage"></p>
+            <p id="error"></p>
         </section>
+        
     </main>
-    <footer>
 
+    <footer>
         <p>© 2026 ANIMAL WILDLIFE GUIDE</p>
         <p>Find wildlife locations, conservation areas, and services across Kenya</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 

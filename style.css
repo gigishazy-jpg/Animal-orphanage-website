@@ -604,14 +604,17 @@ footer{
 }
 form input,
 form textarea,
-form button {
-    width: 1050px;
+form button,
+#category,
+#search
+{
+    width: 1200px;
     padding: 30px;
     margin-bottom: 18px;
-    font-size: 16px;
+    font-size: 18px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    margin-left: 100px;
+    margin-left: 70px;
 
 }
 

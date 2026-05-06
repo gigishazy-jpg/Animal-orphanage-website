@@ -410,4 +410,40 @@ window.addEventListener("DOMContentLoaded", () => {
     countySelect.value = last;
     displayCounty(last);
   }
+});const form = document.getElementById("form");
+const message = document.getElementById("formMessage");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const county = document.getElementById("county").value.trim().toLowerCase();
+  const place = document.getElementById("place").value.trim();
+  const animals = document.getElementById("animals").value.split(",");
+  const services = document.getElementById("services").value.split(",");
+
+  if (!county || !place) {
+    message.textContent = " Please fill all fields!";
+    message.style.color = "red";
+    return;
+  }
+
+  if (!counties[county]) {
+    counties[county] = {
+      name: county + " County",
+      places: [],
+    };
+  }
+
+  counties[county].places.push({
+    name: place,
+    animals: animals,
+    services: services,
+  });
+
+  localStorage.setItem("counties", JSON.stringify(counties));
+
+  message.textContent = " Place added successfully!";
+  message.style.color = "green";
+
+  form.reset();
 });

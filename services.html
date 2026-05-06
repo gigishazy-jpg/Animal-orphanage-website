@@ -14,7 +14,7 @@
         <nav class="nav">
             <a href="./home.html"> HOME</a>
             <a href="./about.html"> ANIMALS</a>
-            <a href=""></a>
+            <a href="#form"> FORM</a>
         </nav>
     </header>
     <main>
@@ -52,15 +52,14 @@
                 <p>Select a county to view places...</p>
             </div>
         </section>
-        <section class="form-section">
+        <section id="form">
             <h2>Add New Place</h2>
 
-            <form id="addForm">
+            <form>
                 <input type="text" id="county" placeholder="County" required>
                 <input type="text" id="place" placeholder="Place name" required>
-                <input type="text" id="animals" placeholder="Animals (comma separated)" required>
-                <input type="text" id="services" placeholder="Services (comma separated)" required>
-
+                <input type="text" id="animals" placeholder="Animals (eg animal, add comma to seperate it)" required>
+                <input type="text" id="services" placeholder="Services (eg food, add comma to seperate it)" required>
                 <button type="submit">Add Place</button>
             </form>
 

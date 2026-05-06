@@ -605,24 +605,23 @@ footer{
 form input,
 form textarea,
 form button {
-    width: 100%;
-    padding: 14px;
+    width: 1050px;
+    padding: 30px;
     margin-bottom: 18px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    margin-left: 100px;
+
 }
 
 form input:focus,
 form textarea:focus {
-    border-color: #007bff;
+    border-color: hsl(46, 100%, 50%);
     outline: none;
 }
-
-/* cursor pointer is used to indicate that an element is clickable it changes from cursor to hand */
-/* when you have transition above you get to hover the changing of color and text declared */
 form button {
-    background-color: #007bff;
+    background-color:var(--savannah-gold);
     color: white;
     border: none;
     cursor: pointer;
@@ -633,13 +632,9 @@ form button {
 }
 
 form button:hover {
-    background-color: #0056b3;
+    background-color: hsl(39, 91%, 39%);
 }
 
 form button:active {
-    background-color: #004085;
-}
-
-form label {
-    color: coral;
+    background-color: hsl(34, 100%, 26%);
 }

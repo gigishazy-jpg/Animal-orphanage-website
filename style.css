@@ -54,7 +54,6 @@ header {
     --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/* ANIMATIONS --- */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -91,7 +90,6 @@ header {
     
 }
 
-/* --- 4. ANIMAL CONTAINER GRID --- */
 .animals,
 #carnivores,
 #primates,
@@ -150,12 +148,10 @@ header {
     overflow: hidden;
     transition: var(--transition);
     box-shadow: var(--shadow);
-    /* Dark overlay so text is readable over images */
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Hover Animation */
 .elephant:hover,
 .zebra:hover,
 .rhino:hover,
@@ -187,11 +183,10 @@ header {
 {
     transform: translateY(-15px) scale(1.02);
     background-color: rgba(0, 0, 0, 0.2);
-    /* Brightens on hover */
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-/* Inner Images within Cards */
+
 .elephant img,
 .zebra img,
 .rhino img,
@@ -231,7 +226,6 @@ header {
     border: 4px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Specific background-images  */
 .elephant {
     background-image: url(./Elephant.jpg);
 }
@@ -441,7 +435,7 @@ header {
 
 }
 
-/* --- 6. TEXT STYLING --- */
+
 p {
     text-align: center;
     font-size: 1.1rem;
@@ -456,7 +450,7 @@ h3 {
     letter-spacing: 2px;
 }
 
-/* --- 7. RESPONSIVENESS --- */
+
 @media (max-width: 768px) {
 
     .box1,
@@ -491,7 +485,7 @@ h3 {
     {
         width: 95%;
         height: auto;
-        /* Let content set height on mobile */
+        
         border-radius: 40px;
         padding: 30px 15px;
     }
@@ -536,25 +530,15 @@ h3 {
     }
 }
 
-/* SECTIONS */
 section {
-    margin: 20px;
-    padding: 20px;
+
     border-radius: 12px;
     background: white;
     box-shadow: 0 4px 10px #7e61031a;
 }
 
 /* INTRO */
-ul,ol {
-    text-align: center;
 
-}
- li{
-           text-align: center;
-}
-
-/* SEARCH BOX */
 .search-box input {
     width: 100%;
     padding: 12px;
@@ -563,7 +547,7 @@ ul,ol {
     border: 1px solid #ccc;
 }
 
-/* DROPDOWN */
+
 .dropdown-container {
     display: flex;
     flex-direction: column;
@@ -583,7 +567,6 @@ select:hover {
     background-color: hsl(43, 5%, 74%);
 }
 
-/* RESULT BOX */
 .result-box {
     border: 3px solid hsl(41, 86%, 46%);
     border-radius: 12px;
@@ -609,7 +592,15 @@ select:hover {
     color: hsl(41, 86%, 34%);
 }
 
-/* LISTS */
-ul {
-    padding-left: 20px;
+.ul li{
+    text-align: center;
+    list-style-position:inside;
+}
+Animals,Services{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-position:inside;
+    
 }

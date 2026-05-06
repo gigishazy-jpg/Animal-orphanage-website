@@ -1,4 +1,4 @@
-/// ================= FULL DATA =================
+
 const defaultData = {
 
   narok: {
@@ -341,15 +341,11 @@ const defaultData = {
   }
 };
 
-// ================= LOCAL STORAGE =================
 let counties = JSON.parse(localStorage.getItem("counties")) || defaultData;
-
-// ================= DOM =================
 const searchInput = document.getElementById("searchInput");
 const countySelect = document.getElementById("countySelect");
 const output = document.getElementById("output");
 
-// ================= LOAD =================
 function loadCounties(filter = "") {
   countySelect.innerHTML = "";
 
@@ -371,12 +367,9 @@ function loadCounties(filter = "") {
 
 loadCounties();
 
-// ================= SEARCH =================
 searchInput.addEventListener("input", () => {
   loadCounties(searchInput.value);
 });
-
-// ================= DISPLAY =================
 function displayCounty(key) {
   const data = counties[key];
 
@@ -390,7 +383,7 @@ function displayCounty(key) {
   data.places.forEach(place => {
     html += `
       <div class="place">
-        <h4>${place.name}</h4>
+        <h3>${place.name}</h3>
 
         <p><strong>Animals:</strong></p>
         <ul>${place.animals.map(a => `<li>${a}</li>`).join("")}</ul>
@@ -406,13 +399,11 @@ function displayCounty(key) {
   localStorage.setItem("lastCounty", key);
 }
 
-// ================= SELECT =================
 countySelect.addEventListener("change", () => {
   const selected = countySelect.value;
   displayCounty(selected);
 });
 
-// ================= LOAD LAST =================
 window.addEventListener("DOMContentLoaded", () => {
   const last = localStorage.getItem("lastCounty");
   if (last && counties[last]) {

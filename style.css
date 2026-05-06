@@ -412,3 +412,46 @@ h3 {
     width: 200px;
     padding-left: 100px;
 }
+.duiker {
+    height: 900px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.duiker img {
+    height: 250px;
+    width: 200px;
+    padding-left: 100px;
+}
+.swine {
+    height: 1200px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.swine img {
+    height: 250px;
+    width: 200px;
+    padding-left: 100px;
+}
+#antelopes{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}

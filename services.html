@@ -1,52 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Kenya Wildlife Guide</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>ANIMAL WILDLIFE GUIDE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h1>Kenya Wildlife Guide</h1>
-  <nav class="nav">
-    <a href="#finder">Find Animals</a>
-    <a href="#addAnimal">Add Animal</a>
-  </nav>
-</header>
+    <header>
+        <h1>ANIMAL WILDLIFE GUIDE</h1>
+        <nav>
+            <a href="./home.html"> HOME</a>
+            <a href="./about.html"> ANIMALS</a>
+            <a href=""></a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2> About This Website</h2>
+            <p>
+                Discover wildlife locations, animals, and conservation services across Kenya.
+                Select a county or search to explore.
+            </p>
 
-<!-- FINDER SECTION -->
-<section id="finder">
-  <h2>Find Animals</h2>
+            <h3>Services Offered</h3>
+            <ul>
+                <li>Wildlife location guidance</li>
+                <li>Animal orphanage information</li>
+                <li>Safari and tourism recommendations</li>
+                <li>Conservation education</li>
+                <li>Search by county and location</li>
+            </ul>
+        </section>
 
-  <input type="text" id="searchInput" placeholder="Search animal..." oninput="filterCombined()">
+       
+        <section class="search-box">
+            <h2> Find Wildlife Locations</h2>
 
-  <select id="categorySelect" onchange="filterCombined()">
-    <option value="">All Categories</option>
-    <option value="herbivores">Herbivores</option>
-    <option value="carnivores">Carnivores</option>
-    <option value="primates">Primates</option>
-    <option value="antelopes">Antelopes</option>
-    <option value="elusive">Elusive</option>
-  </select>
+            <input type="text" id="searchInput" placeholder="Search county...">
 
-  <div id="results"></div>
-</section>
+            <div class="dropdown-container">
+                <label>Select County:</label>
+                <select id="countySelect">
+                    <option value="">-- Click to select county --</option>
+                </select>
+            </div>
+        </section>
 
-<!-- ADD ANIMAL FORM -->
-<section id="addAnimal">
-  <h2>Add New Animal</h2>
+        <!-- RESULTS -->
+        <section id="result">
+            <h2> Results</h2>
+            <div id="output" class="result-box">
+                <p>Select a county to view places...</p>
+            </div>
+        </section>
+    </main>
 
-  <input type="text" id="animalName" placeholder="Animal name">
-  <input type="text" id="animalCategory" placeholder="Category">
-  <input type="text" id="animalLocation" placeholder="Location (e.g. Maasai Mara)">
-  
-  <button onclick="addAnimal()">Add Animal</button>
-
-  <p id="errorMsg"></p>
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

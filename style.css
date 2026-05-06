@@ -241,4 +241,156 @@ h3 {
     width: 300px;
     padding-left: 100px;
 }
+.jack {
+    height: 1200px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./♡.jpg);
+    font-weight: 800;
 
+}
+
+.jack img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.mongoose {
+    height: 1200px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.mongoose img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.caracal {
+    height: 1200px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./Caracal\ \(2\).jpg);
+    font-weight: 800;
+
+}
+
+.caracal img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.chimp {
+    height: 1000px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(26\).jpg);
+    font-weight: 800;
+
+}
+
+.chimp img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.baboon{
+    height: 1000px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./safari_1901-266bw_jpg.jpg);
+    font-weight: 800;
+
+}
+
+.baboon img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.monkey {
+    height: 1000px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.monkey img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+
+.colo {
+    height: 1000px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.colo img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+.bush {
+    height: 1000px;
+    width: 500px;
+    color: burlywood;
+    border-radius: 100px;
+    font-size: larger;
+    line-height: 100%;
+    padding-top: 20px;
+    background-image: url(./download\ \(25\).jpg);
+    font-weight: 800;
+
+}
+
+.bush img {
+    height: 350px;
+    width: 300px;
+    padding-left: 100px;
+}
+
+#primates{
+    display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+}

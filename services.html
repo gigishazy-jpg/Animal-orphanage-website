@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenya Wildlife Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Kenya Wildlife Guide</h1>
+  <nav class="nav">
+    <a href="#finder">Find Animals</a>
+    <a href="#addAnimal">Add Animal</a>
+  </nav>
+</header>
+
+<!-- FINDER SECTION -->
+<section id="finder">
+  <h2>Find Animals</h2>
+
+  <input type="text" id="searchInput" placeholder="Search animal..." oninput="filterCombined()">
+
+  <select id="categorySelect" onchange="filterCombined()">
+    <option value="">All Categories</option>
+    <option value="herbivores">Herbivores</option>
+    <option value="carnivores">Carnivores</option>
+    <option value="primates">Primates</option>
+    <option value="antelopes">Antelopes</option>
+    <option value="elusive">Elusive</option>
+  </select>
+
+  <div id="results"></div>
+</section>
+
+<!-- ADD ANIMAL FORM -->
+<section id="addAnimal">
+  <h2>Add New Animal</h2>
+
+  <input type="text" id="animalName" placeholder="Animal name">
+  <input type="text" id="animalCategory" placeholder="Category">
+  <input type="text" id="animalLocation" placeholder="Location (e.g. Maasai Mara)">
+  
+  <button onclick="addAnimal()">Add Animal</button>
+
+  <p id="errorMsg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

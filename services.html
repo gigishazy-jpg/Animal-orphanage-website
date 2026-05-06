@@ -34,8 +34,6 @@
                 <li>Search by county and location</li>
             </ul>
         </section>
-
-       
         <section class="search-box">
             <h2> Find Wildlife Locations</h2>
 
@@ -48,16 +46,28 @@
                 </select>
             </div>
         </section>
-
-        <!-- RESULTS -->
         <section id="result">
             <h2> Results</h2>
             <div id="output" class="result-box">
                 <p>Select a county to view places...</p>
             </div>
         </section>
+        <section class="form-section">
+            <h2>Add New Place</h2>
+
+            <form id="addForm">
+                <input type="text" id="county" placeholder="County" required>
+                <input type="text" id="place" placeholder="Place name" required>
+                <input type="text" id="animals" placeholder="Animals (comma separated)" required>
+                <input type="text" id="services" placeholder="Services (comma separated)" required>
+
+                <button type="submit">Add Place</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
     </main>
-     <footer>
+    <footer>
 
         <p>© 2026 ANIMAL WILDLIFE GUIDE</p>
         <p>Find wildlife locations, conservation areas, and services across Kenya</p>

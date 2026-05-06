@@ -1,11 +1,4 @@
-.box1{
-    background-color: #9c7b53;
-    height:800px;
-    width:500px;
-    border-radius: 100px;
-    margin:auto;
 
-}
  h1{
     text-align: center ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,7 +33,7 @@ header {
     transition: color 0.3s;
 }
 
-.nav-links a:hover {
+.nav a:hover {
     color: var(--savannah-gold);
 }
 
@@ -596,11 +589,57 @@ select:hover {
     text-align: center;
     list-style-position:inside;
 }
-Animals,Services{
-    text-align: center;
-}
+
 ul{
     text-align: center;
     list-style-position:inside;
     
+}
+footer{
+    background-color: var(--savannah-gold);
+    background: linear-gradient(#99580399, #df990299);
+        background-size: cover;
+        background-position: center;
+        color: white;
+}
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* cursor pointer is used to indicate that an element is clickable it changes from cursor to hand */
+/* when you have transition above you get to hover the changing of color and text declared */
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form button:active {
+    background-color: #004085;
+}
+
+form label {
+    color: coral;
 }

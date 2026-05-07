@@ -125,7 +125,7 @@ Then the system should display an error message
 
 1. Download or clone the repository
 2. Open the project folder
-3. Open `home.html` in your browser
+3. Open  by double clicking the `index.html` in your browser
 
 ---
 
@@ -145,12 +145,10 @@ Then the system should display an error message
 # Contact
 
 ## Gmail
-yourgmail@gmail.com
+ngigishazy0@gmail.com
 
 ## GitHub
-https://github.com/yourusername
-
----
+https://github.com/gigishazy-jpg
 
 # Author
 Sharon Ngige

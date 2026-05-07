@@ -127,13 +127,14 @@ Then the system should display an error message
 2. Open the project folder
 3. Open  by double clicking the `index.html` in your browser
 
----
+#Known changes
+-The page was first called Animal-orphanage-website but it later changed to ANIMAL WIDLIFE GUIDE do to the information it contains for it speaks for alot more than orphanages
+-The home page was initially home.html but it was changed to index.html due to deployment issues
 
 # Known Issues
 - Some images may fail to load if image paths are incorrect
 - localStorage data may clear if browser storage is manually deleted
-
----
+-some images do not show fully because of the image sizing
 
 # Future Improvements
 - Add wildlife images
